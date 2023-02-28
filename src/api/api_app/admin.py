@@ -1,3 +1,7 @@
 from django.contrib import admin
+from . models import Quest, Board, ChildQuest
 
-# Register your models here.
+admin.site.register(Board)
+admin.site.register(Quest)
+admin.site.register(ChildQuest)
+
