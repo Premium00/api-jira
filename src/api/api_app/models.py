@@ -2,8 +2,6 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.urls import reverse
 
-<<<<<<< HEAD
-=======
 
 class Board(models.Model):
     title =  models.CharField(max_length=200)
@@ -43,4 +41,3 @@ class ChildQuest(models.Model):
 
 class Meta:
     ordering = ['state']
->>>>>>> b8fbabf (add models to api and admin)
